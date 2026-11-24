@@ -1,0 +1,53 @@
+{
+  "data": "criteo_v2.1_sample",
+  "n_rows": 350000,
+  "outcome_rate": 0.04616,
+  "treatment_rate": 0.8444314285714286,
+  "ate": {
+    "ate": 0.009838649866395703,
+    "se": 0.0009069434776069154,
+    "ci_low": 0.00806107331427264,
+    "ci_high": 0.011616226418518767,
+    "n_treat": 295551,
+    "n_control": 54449,
+    "mean_treat": 0.047690584704501084,
+    "mean_control": 0.03785193483810538
+  },
+  "srm_vs_empirical_assignment": {
+    "n_treat": 295551,
+    "n_control": 54449,
+    "expected_p_treat": 0.8444314285714286,
+    "chi2": 3.889111587238978e-27,
+    "p_value": 0.9999999999999503,
+    "srm_flag": false
+  },
+  "srm_vs_50_50_illustration": {
+    "n_treat": 295551,
+    "n_control": 54449,
+    "expected_p_treat": 0.5,
+    "chi2": 166086.21258285714,
+    "p_value": 0.0,
+    "srm_flag": true
+  },
+  "aa_test": {
+    "n_sims": 150,
+    "alpha": 0.05,
+    "empirical_significant_rate": 0.04
+  },
+  "peeking_ever_significant": true,
+  "uplift_at_30pct": {
+    "frac": 0.3,
+    "uplift": 0.029332322454325793,
+    "n": 31500,
+    "visit_treat": 0.1109942135718043,
+    "visit_control": 0.08166189111747851
+  },
+  "random_ate": 0.009838649866395703,
+  "assumed_treatment_cost": 1.0,
+  "cost_per_incremental_visit_top30": 34.09208396495466,
+  "sources": [
+    "Diemert et al. (2018), A Large Scale Benchmark for Uplift Modeling, AdKDD@KDD",
+    "Kohavi, Henne, Sommerfield (2007), Practical Guide to Controlled Experiments on the Web",
+    "Airbnb Engineering (2014), Experiments at Airbnb"
+  ]
+}
