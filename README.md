@@ -41,3 +41,8 @@ First run downloads ~300MB from the Hugging Face `criteo/criteo-uplift` mirror (
 5. Python version 3.11+ recommended → Deploy
 
 The app reads artifacts under `outputs/`. Re-run `scripts/run_mvp.py` locally if you need to refresh them before pushing.
+
+## Live dashboard
+
+[https://ds-experiment-uplift.streamlit.app/](https://ds-experiment-uplift.streamlit.app/)
+
